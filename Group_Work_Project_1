@@ -1,0 +1,14 @@
+Task 1
+a. An example of poor quality structured data will be a CSV file containing loan information where interest rates are recorded inconsistently with some rates in decimals eg. 0.5 and others in percentages eg. 5%. The file has key columns such as Loan_received_date, amount_received etc, have missing wrongly formatted data.
+
+b. To recognize the poor quality of the data above, the following would be considered.
+i. The metadata does not align with the actual records, for instance, the expected numeric format is violated by non-numeric entries. 
+ii. Inconsistent units (eg: fractions versus percentages), make it difficult to compare values properly.
+iii. Finally, missing values and duplicate records further compromise accuracy as these issues obstruct reliable analysis and may lead to biased financial conclusions (Consoli, Reforgiato Recupero, and Saisana).
+
+c. An example of poor quality unstructured data will be a collection of financial news articles extracted from various websites where the text is polluted with HTML tags, irrelevant navigation elements, and inconsistent formatting. Typos, varied punctuation, and irrelevant advertisements are interwoven with the actual news content.
+
+d. To recognise the poor quality of the unstructured data mentioned above, the following would be considered.
+i. The data lacks consistent structure, making it hard to isolate the meaningful content.
+ii. The presence of HTML artifacts and advertisements introduces noise, which obscures key themes and sentiments.
+iii. Moreover, numerous typos and formatting issues hinder effective natural language processing, leading to unreliable sentiment analysis and topic extraction (Consoli, Reforgiato Recupero, and Saisana).
