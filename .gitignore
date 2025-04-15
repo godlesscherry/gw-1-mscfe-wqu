@@ -1,0 +1,28 @@
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore Python cache files
+__pycache__/
+*.py[cod]
+
+# Ignore virtual environments
+env/
+venv/
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore PDF documents
+*.pdf
+
+# Ignore compiled files
+*.pyc
+*.pyo
+
+# Ignore temporary files
+*.tmp
+*.log
+
+# Ignore the notebook file if it should not be tracked
+8952_FD GWP 1 M5.ipynb
